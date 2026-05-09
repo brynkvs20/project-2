@@ -1,0 +1,371 @@
+@media (max-width: 1300px) {
+  .quote_btn-container {
+    display: none;
+  }
+
+  .custom_nav-container .navbar-nav {
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    height: auto;
+  }
+
+  .header_section .header_top {
+    display: none;
+  }
+
+  .header_section .header_bottom {
+    color: white;
+  }
+  .navbar_brand_mobile {
+    display: flex;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+  }
+
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section {
+    height: 100vh;
+    min-height: 600px;
+  }
+
+  .slider_section .carousel-item {
+    height: 100vh;
+    min-height: 600px;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact_section .form_container {
+    background-color: #494849;
+    padding: 45px 25px;
+  }
+
+  /* Add animation styles for tablets */
+  .slider_section .detail-box {
+    animation: fadeInUp 1s ease;
+  }
+
+  .service_section .box {
+    animation: fadeIn 0.8s ease;
+  }
+
+  .portfolio_section .box {
+    animation: zoomIn 0.8s ease;
+  }
+
+  .custom_nav-container .navbar-brand {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;margin-left: 5px;
+  }
+
+  .custom_nav-container .navbar-brand img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider_section {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/slider-bg1.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slider_section .carousel-item {
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  .slider_section .detail-box {
+    text-align: center;
+    padding: 0 15px;
+    animation: fadeInUp 0.8s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .slider_section .detail-box .btn-box {
+    justify-content: center;
+  }
+
+  .about_section .img-box {
+    margin-top: 45px;
+  }
+
+  .project_section .box .detail-box {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .contact_section .form_container .btn_box {
+    justify-content: center;
+  }
+
+  .client_section .carousel-indicators {
+    flex-direction: row;
+  }
+
+  .info_section .row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info_section .info_main .rov>div {
+    margin-bottom: 25px;
+  }
+
+  .info_section .social_box {
+    margin-bottom: 25px;
+  }
+
+  /* Updated animation styles for mobile */
+  .service_section .box {
+    animation: fadeIn 0.6s ease !important;
+    will-change: opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .portfolio_section .box {
+    animation: zoomIn 0.6s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .contact_section .form_container {
+    animation: slideInLeft 0.8s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .info_section .info_contact {
+    animation: fadeIn 0.8s ease !important;
+    will-change: opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  /* Hide carousel controls on mobile */
+  .slider_section .carousel_btn-box {
+    display: none;
+  }
+
+  .slider_section .carousel-indicators {
+    display: none;
+  }
+
+  .hero_area {
+    background-image: url('../images/hero-bg1.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .info_section .info_contact .row {
+    flex-direction: row !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Optional: adds space between icons */
+  }
+  .info_section .info_contact .row > div {
+    flex: 0 0 auto;
+    width: auto !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info_section .info_contact .link-box {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .social_box {
+    display: none;
+  }
+
+  .header_section .header_top .contact_nav a {
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .client_section .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client_section .box .detail-box {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .slider_section {
+    height: 100vh;
+    min-height: 400px;
+    background-image: url('../images/slider-bg1.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slider_section .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+  }
+
+  /* Updated animation styles for small mobile */
+  .slider_section .detail-box {
+    animation: fadeInUp 0.6s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .service_section .box {
+    animation: fadeIn 0.5s ease !important;
+    will-change: opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .portfolio_section .box {
+    animation: zoomIn 0.5s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .contact_section .form_container {
+    animation: slideInLeft 0.6s ease !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .info_section .info_contact {
+    animation: fadeIn 0.6s ease !important;
+    will-change: opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  /* Ensure carousel controls are hidden on smaller screens */
+  .slider_section .carousel_btn-box {
+    display: none;
+  }
+
+  .slider_section .carousel-indicators {
+    display: none;
+  }
+
+  .hero_area {
+    background-image: url('../images/hero-bg1.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* Update keyframe animations for better reliability */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9);
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+    visibility: visible;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-20px, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+/* Add a class to force animation reset on page load */
+.animate-on-load {
+  animation: none !important;
+}
+
+.animate-on-load.animated {
+  animation: fadeIn 0.8s ease !important;
+}
