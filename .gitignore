@@ -1,0 +1,2 @@
+# Ignore local email config with real credentials
+php/config.php
